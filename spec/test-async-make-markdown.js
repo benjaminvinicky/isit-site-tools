@@ -17,8 +17,8 @@ describe('Test Make Markdown Suite', function() {
     const configureTests = require('./configure-tests');
     const configSettings = require('../image-help/make-markdown/misc/config-settings-async');
     const ImagesList = require('../image-help/index').ImagesList;
-    const elfLog = require('isit-code-calvert').elfLog('test-make-markdown');
-    const elfUtils = require('isit-code-calvert').elfUtils;
+    const elfLog = require('isit-code-vinicky').elfLog('test-make-markdown');
+    const elfUtils = require('isit-code-vinicky').elfUtils;
 
     beforeEach(function() {
         jasmine.addMatchers(customMatchers);

@@ -1,7 +1,7 @@
 const fs = require('fs');
-const elfLog = require('isit-code-calvert').elfLog('create-markdown');
+const elfLog = require('isit-code-vinicky').elfLog('create-markdown');
 const walkCore = require('../walk-core');
-const utils = require('isit-code-calvert').elfUtils;
+const utils = require('isit-code-vinicky').elfUtils;
 
 function makeReportStructure(configSummary, destinationDir, details, masterListOfNames, htmlFilesWritten) {
     return {
