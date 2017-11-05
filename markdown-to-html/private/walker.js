@@ -129,7 +129,6 @@ walker.makePage = function(details, callback) {
             makePage.run(directory, index, details);
         });
     }
-
 };
 
 walker();

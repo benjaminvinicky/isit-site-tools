@@ -6,8 +6,8 @@ const MakeMarkdown = (function() {
     'use strict';
 
     const createMarkdown = require('./create-markdown');
-    //var deleteMarkdown = require('./delete-markdown');
-    // var elfLog = require('isit-code-vinicky').elfLog('make-markdown');
+    var deleteMarkdown = require('./delete-markdown');
+    var elfLog = require('isit-code-vinicky').elfLog('make-markdown');
     const elvenCode = require('isit-code-vinicky');
     const elfLog = elvenCode.elfLog('make-markdown');
 
