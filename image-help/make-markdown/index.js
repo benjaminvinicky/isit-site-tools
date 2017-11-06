@@ -9,7 +9,6 @@ const MakeMarkdown = (function() {
     var deleteMarkdown = require('./delete-markdown');
     var elfLog = require('isit-code-vinicky').elfLog('make-markdown');
     const elvenCode = require('isit-code-vinicky');
-    const elfLog = elvenCode.elfLog('make-markdown');
 
     function MakeMarkdown() {
         elfLog.setLevel(elfLog.logLevelNano);
