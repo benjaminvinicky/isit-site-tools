@@ -47,7 +47,7 @@ describe('Test Make Markdown Suite', function() {
         expect(true).toBe(true);
     });
 
-    it('checks the SetSelectedElvenImageNames names for one name', function() {
+    fit('checks the SetSelectedElvenImageNames names for one name', function() {
         elfLog.nano('CHECK FILE NAMES');
         configSettings.setSelectedElvenImages(configureTests.IMAGE_CONFIG_NAMES1);
         const objectNames = configSettings.getSelectedElvenImages();
@@ -60,6 +60,7 @@ describe('Test Make Markdown Suite', function() {
         elfLog.nano('CHECK FILE NAMES');
         configSettings.setSelectedElvenImages(configureTests.IMAGE_CONFIG_NAMES2);
         const objectNames = configSettings.getSelectedElvenImages();
+        expect(objectNames.length).toBe(2);
         expect(objectNames.length).toBe(2);
         expect(objectNames[0]).toBe('california1');
         expect(objectNames[1]).toBe('california2');
