@@ -1,6 +1,6 @@
 {
     "name": "isit-site-tools-vinicky",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "description": "Isit tooling for building web sites",
     "main": "index.js",
     "scripts": {
