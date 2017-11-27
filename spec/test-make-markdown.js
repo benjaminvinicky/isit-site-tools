@@ -8,8 +8,8 @@ describe('Test Make Markdown Suite', function() {
     'use strict';
 
     const expected = [
-        '/home/charlie/ElvenImages/california1.md',
-        '/home/charlie/ElvenImages/california2.md'
+        '/home/bcuser/ElvenImages/california1.md',
+        '/home/bcuser/ElvenImages/california2.md'
     ];
 
     const customMatchers = require('./custom-matchers');
@@ -47,7 +47,7 @@ describe('Test Make Markdown Suite', function() {
         expect(true).toBe(true);
     });
 
-    fit('checks the SetSelectedElvenImageNames names for one name', function() {
+    it('checks the SetSelectedElvenImageNames names for one name', function() {
         elfLog.nano('CHECK FILE NAMES');
         configSettings.setSelectedElvenImages(configureTests.IMAGE_CONFIG_NAMES1);
         const objectNames = configSettings.getSelectedElvenImages();

@@ -6,8 +6,8 @@ describe('Test Async Make Markdown Suite', function() {
     'use strict';
 
     const expected = [
-        '/home/charlie/ElvenImages/california1.md',
-        '/home/charlie/ElvenImages/california2.md'
+        '/home/bcuser/ElvenImages/california1.md',
+        '/home/bcuser/ElvenImages/california2.md'
     ];
 
     const customMatchers = require('./custom-matchers');
@@ -88,7 +88,7 @@ describe('Test Async Make Markdown Suite', function() {
 
     it('tests when file exists', function(done) {
         function testToExist() {
-            const fileName = '/home/charlie/ElvenImages/california2.md';
+            const fileName = '/home/bcuser/ElvenImages/california2.md';
             if (elfUtils.fileExists(fileName)) {
                 // The file should not exist
                 expect(true).toBe(false);
