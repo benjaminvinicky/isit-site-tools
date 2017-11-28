@@ -151,7 +151,6 @@ describe('Test Make Markdown Suite', function() {
 
     it('creates markdownFile', function(done) {
         const createSmallImage = require('../image-help/make-markdown/reports/create-small-image');
-
         configSettings.setSelectedElvenImages(configureTests.IMAGE_CONFIG_NAMES2);
         const imagesList = new ImagesList();
         imagesList.getImagesList()
@@ -164,7 +163,7 @@ describe('Test Make Markdown Suite', function() {
             .then(done)
     });
 
-    it('creates markdownFile with delete', function(done) {
+    /*it('creates markdownFile with delete', function(done) {
         configSettings.setSelectedElvenImages(configureTests.IMAGE_CONFIG_NAMES2);
 
         const imagesList = new ImagesList();
@@ -176,6 +175,6 @@ describe('Test Make Markdown Suite', function() {
                 console.log(err)
             })
             .then(done)
-    });
+    });*/
 
 });
